@@ -52,7 +52,8 @@ entry_points = {
         'auctions_server = openprocurement.auction.app:make_auctions_app',
     ],
     'openprocurement.auction.auctions': [
-        'default = openprocurement.auction.includeme:default'
+        'default = openprocurement.auction.includeme:default',
+        'belowThreshold = openprocurement.auction.includeme:belowThreshold'
     ]
 }
 

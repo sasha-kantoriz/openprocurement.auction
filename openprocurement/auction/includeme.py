@@ -15,4 +15,8 @@ def _register(components, procurement_method_type):
 
 
 def default(components):
+    _register(components, 'default')
+
+
+def belowThreshold(components):
     _register(components, 'belowThreshold')
